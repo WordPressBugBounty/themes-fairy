@@ -2947,9 +2947,10 @@ h6 {
 	content: '\f09a';
 }
 
-.twitter:before,
-.fairy-menu-social li a[href*="twitter.com"]:before {
-	content: '\f099';
+.twitter::before,
+.fairy-menu-social li a[href*="twitter.com"]::before,
+.fairy-menu-social li a[href*="x.com"]::before {
+	content: "\f099";
 }
 
 .linkedin:before,
@@ -4477,7 +4478,8 @@ body.ct-dark-mode {
 }
 
 .tw-bg,
-.fairy-menu-social a[href*="twitter.com"] {
+.fairy-menu-social a[href*="twitter.com"],
+.fairy-menu-social a[href*="x.com"] {
 	background-color: #1da1f2;
 }
 

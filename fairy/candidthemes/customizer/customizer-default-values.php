@@ -65,7 +65,7 @@ if ( !function_exists('fairy_default_theme_options_values') ) :
             'fairy-overlay-second-color'=>'rgba(0, 0, 0, 0.5)',
 
             /*Footer Options*/
-            'fairy-footer-copyright'=> esc_html__('All Rights Reserved 2024.','fairy'),
+            'fairy-footer-copyright'=> esc_html__('All Rights Reserved 2026.','fairy'),
             'fairy-go-to-top'=> true,
             'fairy-go-to-top-icon'=> esc_html__('fa-long-arrow-up','fairy'),
             'fairy-go-to-top-icon-new'=> esc_html__('fa-long-arrow-alt-up','fairy'),

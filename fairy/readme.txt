@@ -3,11 +3,11 @@
 Contributors: candidthemes
 Tags: grid-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, threaded-comments, blog, news
 Requires at least: 5.0
-Requires PHP: 5.6
-Tested up to: 6.5
-Stable tag: 1.4.1
+Requires PHP: 7.0
+Tested up to: 6.9
+Stable tag: 1.0.0
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
@@ -21,7 +21,7 @@ Fairy is a free and minimal WordPress blog theme. It is a Gutenberg ready WordPr
 == License ===
 
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Fairy WordPress Theme, Copyright 2021 Candid Themes
 Fairy is distributed under the terms of the GNU General Public License v2
@@ -56,7 +56,15 @@ Source: https://stocksnap.io/photo/room-chairs-ANPIK80BTA
 Images under assets folder are self created and license under CCO. 
 
 == Changelog ==
-== Changelog ==
+
+= 1.4.3 - February 24 2026 =
+* Tested up to WordPress 6.9
+* Updated requires PHP version increased to 7.0
+* Updated copyright date.
+* Updated license URI.
+* Fixed CSS selectors for social media icon(Twitter X) display.
+* Improved comment section link styling.
+
 = 1.4.2 - August 8 2024 = 
 * Added a new font family
 * Tested with WordPress 6.6

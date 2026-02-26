@@ -4,11 +4,11 @@ Theme URI: https://www.candidthemes.com/themes/fairy
 Author: candidthemes
 Author URI: https://www.candidthemes.com/
 Description: Fairy is a free and minimal WordPress blog theme. It is a Gutenberg ready WordPress theme and compatible with all blocks and patterns of WordPress. This theme is developed based on customizer settings. You can see the live changes that you have made in customizer. Fairy also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option, Mailchimp subscription, and many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sticky sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog. You can also use this theme for news and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today. Demo: https://fairy.candidthemes.com/
-Version: 1.4.2
-Tested up to: 6.6
-Requires PHP: 5.6
-License: GNU General Prefer License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.4.3
+Tested up to: 6.9
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: fairy
 Tags: grid-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, threaded-comments, blog, news
 
@@ -2939,12 +2939,17 @@ h6 {
   content: "\f39e";
 }
 
-.twitter:before,
-.fairy-menu-social li a[href*="twitter.com"]:before {
+/* Default icon */
+.fairy-menu-social li a[href*="twitter.com"]::before,
+.fairy-menu-social li a[href*="x.com"]::before {
   content: "\f099";
 }
 
-.fairy-fontawesome-version-6 .fairy-menu-social li a[href*="twitter.com"]:before {
+/* FA6 override */
+.fairy-fontawesome-version-6 
+.fairy-menu-social li a[href*="twitter.com"]::before,
+.fairy-fontawesome-version-6 
+.fairy-menu-social li a[href*="x.com"]::before {
   content: "\e61b";
 }
 
@@ -3608,6 +3613,10 @@ figcaption {
 
 ol.wp-block-latest-comments {
   padding-left: 0;
+}
+
+#comments a {
+text-decoration: underline;
 }
 
 /* Button Style CSS
@@ -4516,12 +4525,18 @@ body.ct-dark-mode {
   color: #1da1f2;
 }
 
+/* Default Twitter blue (FA 4/5) */
 .tw-bg,
-.fairy-menu-social a[href*="twitter.com"] {
+.fairy-menu-social a[href*="twitter.com"],
+.fairy-menu-social a[href*="x.com"] {
   background-color: #1da1f2;
 }
 
-.fairy-fontawesome-version-6 .fairy-menu-social a[href*="twitter.com"] {
+/* Font Awesome 6 (X dark brand color) */
+.fairy-fontawesome-version-6 
+.fairy-menu-social a[href*="twitter.com"],
+.fairy-fontawesome-version-6 
+.fairy-menu-social a[href*="x.com"] {
   background-color: #0f1419;
 }
 

@@ -17,4 +17,8 @@
 	color: #fff!important;
 	box-shadow: none!important;
 	border-color: #d10014 !important;
+	min-height: 30px !important;
+	padding: 0 8px !important;
+	line-height: 2.15 !important;
+	font-size: 12px !important;
 }

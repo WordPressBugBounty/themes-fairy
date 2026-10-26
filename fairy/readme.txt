@@ -2,10 +2,9 @@
 
 Contributors: candidthemes
 Tags: grid-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, threaded-comments, blog, news
-Requires at least: 5.0
-Requires PHP: 7.0
-Tested up to: 6.9
-Stable tag: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Tested up to: 7.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,21 +17,21 @@ Fairy is a free and minimal WordPress blog theme. It is a Gutenberg ready WordPr
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== License ===
+== License ==
 
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Fairy WordPress Theme, Copyright 2021 Candid Themes
+Fairy WordPress Theme, Copyright 2026 Candid Themes
 Fairy is distributed under the terms of the GNU General Public License v2
 
 == Credits ==
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
-* Font-Awesome https://github.com/FortAwesome/Font-Awesome FontAwesome 4.7.0 Copyright 2012 Dave Gandy Font License: SIL OFL 1.1 Code License: MIT License http://fontawesome.com/license/
-* theia-sticky-sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT](http://opensource.org/licenses/MIT)
-* BreadcrumbTrail - http://themehybrid.com/plugins/breadcrumb-trail http://www.gnu.org/licenses/old-licenses/gpl-2.0.html Copyright (c) 2008 - 2015, Justin Tadlock
+* Font Awesome https://fontawesome.com (versions 4.7.0, 6.4.2) Font License: SIL OFL 1.1, Icons: CC BY 4.0, Code License: MIT License https://fontawesome.com/license/free
+* theia-sticky-sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT](https://opensource.org/licenses/MIT)
+* BreadcrumbTrail - https://themehybrid.com/plugins/breadcrumb-trail https://www.gnu.org/licenses/old-licenses/gpl-2.0.html Copyright (c) 2008 - 2015, Justin Tadlock
 * Slick Slider - MIT License, https://github.com/kenwheeler/slick/blob/master/LICENSE
 * Alpha Color https://github.com/WPTT/control-color-alpha MIT License, https://github.com/WPTT/control-color-alpha/blob/master/LICENSE
 
@@ -53,9 +52,17 @@ License: Creative Commons CC0 license.
 License URI: https://stocksnap.io/license
 Source: https://stocksnap.io/photo/room-chairs-ANPIK80BTA
 
-Images under assets folder are self created and license under CCO. 
+Images under assets folder are self created and license under CC0. 
 
 == Changelog ==
+= 1.4.4 - October 7 2026 =
+* Tested up to WordPress 7.1
+* Updated minimum requirements: WordPress 6.0, PHP 7.4.
+* Updated _S_VERSION.
+* Updated copyright date.
+* Updated Font Awesome credits.
+* Updated license URI.
+* Fixed the arrow icon color of the theme options panel in the Customizer.
 
 = 1.4.3 - February 24 2026 =
 * Tested up to WordPress 6.9
